@@ -1,0 +1,15 @@
+<p>weather works!</p>
+
+<canvas baseChart class="chart"
+        [data]="barChartData"
+        [options]="barChartOptions"
+        [plugins]="barChartPlugins"
+        [type]="barChartType"
+        (chartClick)="chartClicked($event)">
+</canvas>
+
+<button mat-button mat-raised-button color="primary">Update</button>
+
+<!-- (click)="randomize() -->
+<!-- (chartHover)="chartHovered($event)" -->
+
